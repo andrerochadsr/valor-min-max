@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left, aqua, aquamarine);
+}
+
+header > h1 {
+    background-color: rgba(0, 0, 0, 0.253);
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.856);
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+label {
+    display: none;
+}
+
+input {
+    text-align: center;
+}
+
+.valor-minimo {
+    background-color: rgba(0, 0, 0, 0.13);
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+.valor-maximo {
+    background-color: rgba(0, 0, 0, 0.13);
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#inumMin-valorMinimo {
+    display: block;
+    margin:15px auto;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    font-size: 1.5em;
+}
+
+#inumMax-valorMinimo {
+    display: block;
+    margin:15px auto;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    font-size: 1.5em;
+}
+
+#inumMin-valorMaximo {
+    display: block;
+    margin:15px auto;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    font-size: 1.5em;
+}
+
+#inumMax-valorMaximo {
+    display: block;
+    margin:15px auto;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    font-size: 1.5em;
+}
+
+.botao-gerar {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 80px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.589);
+
+}
+
+.botao-gerar:hover {
+    transform: scale(110%);
+    background-color: grey;
+    color: white;
+}
+
+div.container-resultado {
+    background-color: rgba(0, 0, 0, 0.205);
+    display: block;
+    margin: auto;
+    margin: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/global.css">
+    <link rel="stylesheet" href="estilos/media-querry.css">
+    <title>Mínimo e Máximo</title>
+</head>
+<body>
+    <header>
+        <h1>Valor mínimo e valor máximo</h1>
+    </header>
+    <main>
+
+        <p class="p-main">Digite os valores abaixo para gerar uma lista de números aleatorios baseado nos seus dois numeros escolhidos.</p>
+
+        <div class="campos">
+            <div class="valor-minimo">
+                <p class="p-campo">Gere o valor minimo.</p>
+                <input type="number" name="numMin-valorMinimo" id="inumMin-valorMinimo" placeholder="min">
+                <label for="inumMin-valorMinimo">min</label>
+                <input type="number" name="numMax-valorMinimo" id="inumMax-valorMinimo" placeholder="max">
+                <label for="inumMax-valorMinimo">max</label>
+            </div>
+            <div class="valor-maximo">
+                <p class="p-campo">Gere o valor maximo.</p>
+                <input type="number" name="numMin-valorMaximo" id="inumMin-valorMaximo" placeholder="min">
+                <label for="inumMin-valorMaximo">min</label>
+                <input type="number" name="numMax-valorMaximo" id="inumMax-valorMaximo" placeholder="max">
+                <label for="">max</label>
+            </div>
+        </div>
+        <input type="button" value="Gerar" onclick="ligar()" class="botao-gerar">
+        <div class="container-resultado">
+            <p class="p-result">Resultado:</p>
+            <p id="resultado" class="p-result"></p>
+        </div>
+        
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="minmax.js"></script>
+</body>
+</html>
