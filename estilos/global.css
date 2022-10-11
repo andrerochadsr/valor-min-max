@@ -24,10 +24,6 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 
-label {
-    display: none;
-}
-
 input {
     text-align: center;
     
@@ -35,6 +31,9 @@ input {
 
 ::-webkit-inner-spin-button {
     display: none;
+}
+input[type=number] {
+    -moz-appearance:textfield;
 }
 
 .valor-minimo {
@@ -53,7 +52,6 @@ input {
     text-align: center;
     border-radius: 10px;
 }
-
 
 #inumMin-valorMinimo, #inumMax-valorMinimo, #inumMin-valorMaximo, #inumMax-valorMaximo {
     display: block;
@@ -83,8 +81,6 @@ input {
     background-color: grey;
     color: white;
 }
-
-
 
 div.container-resultado {
     background-color: rgba(0, 0, 0, 0.205);
