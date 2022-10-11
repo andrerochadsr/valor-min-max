@@ -50,34 +50,7 @@ input {
 }
 
 
-#inumMin-valorMinimo {
-    display: block;
-    margin:15px auto;
-    width: 80px;
-    height: 30px;
-    outline: none;
-    font-size: 1.5em;
-}
-
-#inumMax-valorMinimo {
-    display: block;
-    margin:15px auto;
-    width: 80px;
-    height: 30px;
-    outline: none;
-    font-size: 1.5em;
-}
-
-#inumMin-valorMaximo {
-    display: block;
-    margin:15px auto;
-    width: 80px;
-    height: 30px;
-    outline: none;
-    font-size: 1.5em;
-}
-
-#inumMax-valorMaximo {
+#inumMin-valorMinimo, #inumMax-valorMinimo, #inumMin-valorMaximo, #inumMax-valorMaximo {
     display: block;
     margin:15px auto;
     width: 80px;
