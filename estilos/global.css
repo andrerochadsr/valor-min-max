@@ -86,11 +86,12 @@ input {
     font-size: 1.5em;
 }
 
-.botao-gerar {
+.botao-gerar, .botao-gerar-auto {
     display: block;
     margin: auto;
+    margin-top: 10px;
     height: 50px;
-    width: 80px;
+    padding: 0px 10px 0px 10px;
     font-size: 1.5em;
     border: none;
     cursor: pointer;
@@ -99,11 +100,13 @@ input {
 
 }
 
-.botao-gerar:hover {
+.botao-gerar:hover, .botao-gerar-auto:hover {
     transform: scale(110%);
     background-color: grey;
     color: white;
 }
+
+
 
 div.container-resultado {
     background-color: rgba(0, 0, 0, 0.205);
