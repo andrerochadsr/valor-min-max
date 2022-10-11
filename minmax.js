@@ -14,8 +14,8 @@ function gerar() {
         if (numMax_Minimo > numMin_Minimo && numMin_Maximo >= numMax_Minimo && numMax_Maximo > numMin_Maximo)  {
             function minMaxlist() { //função para retornar o valor máximo e mínimo de uma lista gerada com o método random.
                 let arrayNum = []; // array que conterá os números aleatórios.
-                randNumMax = parseInt(Math.random() * (numMax_Maximo - numMin_Maximo) + numMin_Maximo); // cria um numero aleatório máximo.
-                randNumMin = parseInt(Math.random() * (numMax_Minimo - numMin_Minimo) + numMin_Minimo); // cria um numero aleatório mínimo.
+                randNumMax = parseInt(Math.random() * (numMax_Maximo - numMin_Maximo + 1) + numMin_Maximo); // cria um numero aleatório máximo.
+                randNumMin = parseInt(Math.random() * (numMax_Minimo - numMin_Minimo + 1) + numMin_Minimo); // cria um numero aleatório mínimo.
                 for (let i = randNumMin; i <= randNumMax; i++) { // laço criado para adicionar os números no Array "arrayNum" baseado nos números gerados acima.
                     arrayNum.push(i)};
                 return `o valor mínimo da lista é ${Math.min.apply(null, arrayNum)} e o valor máximo é ${Math.max.apply(null, arrayNum)}. A quantidade de números gerados foi de ${arrayNum.length}.`; // retorna o valor mínimo e máximo.

@@ -30,6 +30,11 @@ label {
 
 input {
     text-align: center;
+    
+}
+
+::-webkit-inner-spin-button {
+    display: none;
 }
 
 .valor-minimo {
